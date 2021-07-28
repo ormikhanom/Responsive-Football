@@ -8,7 +8,7 @@ body{
 /* Copa America styles */
 .container{
    background-color: #2D25A0;
-   width: 1440px;
+   width: 100%;
    height: 677px;
 }
 .conmebol{
@@ -87,4 +87,51 @@ p{
     font-weight: 400;
     font-size: 16px;
     color: #6C6C6C;
+}
+.color{
+    color: gold;
+}
+/* extra part styles */
+.best-footballer{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-weight: 500;
+    font-size: 28px;
+    width: 300px;
+    height: 104px;
+    color: gold;
+    margin-bottom: 0px;
+    padding-bottom: 0px
+}
+.photo img{
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+}
+  /* Footer part styles */
+.logo{
+    width: 483px;
+    height: 110px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.icon-area{
+    width: 182px;
+    height: 43px;
+    margin-left: 630px;
+}
+.social-icon{
+    width: 16px;
+    height: 16px;
+     padding: 8px;
+     border-radius: 50%;
+     background-color: gainsboro;
+}
+.copyright{
+    color: black;
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-bottom: 30px;
 }
