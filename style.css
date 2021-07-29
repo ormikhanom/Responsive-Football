@@ -110,7 +110,9 @@ h3{
     height: 256px;
     margin: 15px;
 }
-  /* Footer part styles */
+  /* -----------------
+   Footer part styles
+   -------------------- */
 .logo{
     width: 483px;
     height: 110px;
@@ -135,3 +137,101 @@ h3{
     margin-left: 600px;
     margin-bottom: 30px;
 }
+/*--------------
+  Media Queries
+ ---------------- */
+ /* Mobile Devices */
+ @media only screen and (max-width:688px){
+     .container{
+         width: 100%;
+         height: 595px;
+     }
+    .conmebol{
+        background-color: #2D25A0;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .copa{
+    padding-top: 80px;
+    margin-left: 10px;
+    }
+    h1{
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .button-icone{
+    width: 128px;
+    height: 33px;
+    }
+    .banner img {
+    width: 30%;
+    padding-top: 60px;
+    height: 300px;
+    margin-left: 15px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: gainsboro;
+        justify-items: center;
+        
+    }
+    .player {
+        height: 500px;
+        background-color: white;
+        margin: 8px;
+        padding: 8px;
+    }
+    .player img {
+        width: 300px;
+        height: 256px;
+        padding-left: 20px;
+    }
+    .player-info {
+        width: 300px;
+        height: 256px;
+        padding-left: 20px;
+    }
+    h2{
+        width: 120px;
+        font-size: 16px;
+    }
+    p{
+    width: 180px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    }
+    .best-footballer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .photo img {
+        width: 250px;
+        height: 256px;
+        margin: 15px;
+        padding-top: 170px;
+    }
+    .logo{
+        width: 483px;
+        height: 110px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .icon-area {
+        width: 182px;
+        height: 43px;
+        margin-left: 130px;
+    }
+    .copyright {
+        color: black;
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+ }
